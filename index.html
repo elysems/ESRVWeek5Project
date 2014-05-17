@@ -3,30 +3,52 @@
 <head>
   <title>jQuery Gallery</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <!-- LINK TO FANCYBOX STYLESHEET -->
   <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
 </head>
 <body>
+  
+
   <div class="container clearfix">
+
+  <img class = "logo" src="images/The Emporium Logo & Byline - small - 225x86 - 300dpi.jpg" alt="">
+    
     <div class="gallery">
-      <h1>jQuery Gallery</h1>
-      <!-- Hey Elyse!! -->
-
-      <div class="previews">
-          <a href="#" height="100" width="67" data-full="images/fashion/top1large.jpg"><img src="images/fashion/top1small.jpg" /></a>
-          <a href="#" class = "pick1" data-full="images/fashion/top2large.jpg"><img src="images/fashion/top2small.jpg" /></a>
-          <a href="#" class = "pick2" data-full="images/fashion/top3large.jpg"><img src="images/fashion/top3small.jpg" /></a>
-          <a href="#" class = "pick3" data-full="images/fashion/top4large.jpg"><img src="images/fashion/top4small.jpg" /></a>
-          <a href="#" class = "pick4" data-full="images/fashion/top5large.jpg"><img src="images/fashion/top5small.jpg" /></a>
-      </div>
-
+      
       <div class="full">
           <!-- first image is viewable to start -->
-          <a class="fancybox" href="images/fashion/top1large.jpg"><img class="fullImage" src="images/fashion/top1large.jpg" /></a>
-      </div>
+          <a class="fancybox" href="images/lanark/lanark1big.jpg"><img class="fullImage" src="images/lanark/lanark1big.jpg" /></a>
+      </div> <!-- end full -->
 
+      <div class="previews">
+          <a href="#" data-full="images/lanark/lanark1big.jpg"><img src="images/lanark/lanark1small.jpg"/></a>
+          <a href="#" data-full="images/lanark/lanark2large.jpg"><img src="images/lanark/lanark2small.jpg" /></a>
+          <a href="#" data-full="images/lanark/lanark3large.jpg"><img src="images/lanark/lanark3small.jpg" /></a>
+          <a href="#" data-full="images/lanark/lanark4large.jpg"><img src="images/lanark/lanark4small.jpg"/></a>
+          <a href="#" data-full="images/lanark/lanark5large.jpg" height="100" width="100"><img src="images/lanark/lanark5small.jpg"/></a>
+      </div> <!-- end previews -->
+    
+    </div> <!-- end gallery -->
+
+    <div class="description">
+        <h2>Lanark Collection</h2>
+        <h1>Lunenberg Drop Leaf Table in Grey</h1>
+        <p>An Emporium favourite, the Lunenberg Drop Leaf Table is a real showpiece. Great as a sideboard, hall table or entryway table, sofa table, writing desk, or even a small kitchen island. It's a timeless, beautifully handcrafted, versatile piece. Made in Canada of solid pine. Painted grey and distressed.
+          <ul>
+            <li>50"W x 18"D x 30.5"T</li>
+            <li>Extends with drop-leaf to 28"D</li>
+            <li>Available with brass casters, or without, as shown.</li>
+          </ul>
+        </p>
+
+        <button>
+          Add to Basket
+        </button>
     </div>
-  </div>
+  
+  </div> <!-- end container -->
+  
   <!-- LOAD JQUERY LIBRARY -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <!-- LOAD FANCYBOX -->
@@ -35,16 +57,14 @@
   <script>
     
     $(function() {
-      // CREATE A VARIABLE TO STORE THE DATA-FULL ATTRIBUTE WHEN X IS CLICKED
-      var data = $(this).data("full");
-      
       // CREATE A VARIABLE TO STORE A JQUERY SELECTOR FOR FULLIMAGE
       var fullImage = $(".fullImage");
 
       // WHEN AN A IN THE PREVIEWS CLASS IS CLICKED, FIND FULLIMAGE, CHANGE THE SRC ATTR TO DATA, HIDE FULLIMAGE, THEN FADEIN. THEN, FIND THE FANCYBOX CLASS, CHANGE THE HREF ATTR TO DATA.
 
       $('.previews a').on('click',function(){
-          fullImage.attr("src",data).hide().fadeIn(600);
+          var data = $(this).data("full");
+          fullImage.attr("src",data).hide().fadeIn(500);
           $(".fancybox").attr("href", data);
       });
 
