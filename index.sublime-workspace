@@ -1,0 +1,286 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"webkit-inner-spin-button"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"font",
+				"font-variant"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"clear",
+				"Snippet: clearfix"
+			],
+			[
+				"syntaxht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"snip",
+				"Snippet: CSSnormalize"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"snippet",
+				"Snippet: CSSnormalize"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESRVWeek5Project/index.sublime-workspace",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESRVWeek5Project 2/index.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESRVWeek5Project/fancybox/jquery.fancybox.css",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESRVWeek5Project/stylesheet.css",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESRVWeek5Project/fancybox/jquery.fancybox.js",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESWeek4Project/style-guide.html",
+		"/Users/Elyse/Desktop/terminaltest/terminalindex.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ESWeek4Project/ESdeepLagoon.scss.haml",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Exercises/jquery album exercise.html",
+		"/Users/Elyse/Desktop/GitTest/Test Project/testproject.readme.md",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/style.css",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/index.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/CuratedWellness.sublime-project",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/ESProjectWeek2/index.html",
+		"/Users/Elyse/Downloads/responsive-exercises/ex3.html",
+		"/Users/Elyse/Downloads/responsive2.html",
+		"/Users/Elyse/Downloads/responsive-exercises/ex1.html",
+		"/Users/Elyse/Downloads/responsive-exercises/ex2.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/CWDifference.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/WorkWithCW.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/ES_Week2Project/Praise.html",
+		"/Users/Elyse/Downloads/icomoon/style.css",
+		"/Users/Elyse/Downloads/fontello-e12c9b72/css/brandico-ie7-codes.css",
+		"/Users/Elyse/Downloads/dropdown.html",
+		"/Users/Elyse/Downloads/slide-out-nav-START.html",
+		"/Users/Elyse/Downloads/bg-images/bg-images.html",
+		"/Users/Elyse/Downloads/inputs-exercise (1).html",
+		"/Users/Elyse/Downloads/form.html",
+		"/Users/Elyse/Desktop/list-exercises/lists-ex3-centered-nav.html",
+		"/Users/Elyse/Desktop/list-exercises/lists-ex2-easynav.html",
+		"/Users/Elyse/Desktop/list-exercises/lists-ex1-simplenav.html",
+		"/Users/Elyse/Downloads/dropdownANSWER.html",
+		"/Users/Elyse/Downloads/list-style.html",
+		"/Users/Elyse/Downloads/nested-lists.html",
+		"/Users/Elyse/Downloads/simple-nav.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/Week1Project/style.css",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/Week1Project/index.html",
+		"/Users/Elyse/Library/Application Support/Sublime Text 3/Packages/User/border-box.sublime-snippet",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Projects/Week1Project/untitled.css",
+		"/Users/Elyse/Downloads/border-box.sublime-snippet",
+		"/Users/Elyse/Downloads/positioning-and-floats/ex1-position-relative.html",
+		"/Users/Elyse/Downloads/position-fixed.html",
+		"/Users/Elyse/Downloads/z-index.html",
+		"/Users/Elyse/Downloads/link-within.html",
+		"/Users/Elyse/Downloads/display.html",
+		"/Users/Elyse/Downloads/position-relative.html",
+		"/Users/Elyse/Downloads/position-absolute.html",
+		"/Users/Elyse/Downloads/position.html",
+		"/Users/Elyse/Library/Application Support/Sublime Text 3/Packages/User/CSSnormalize.sublime-snippet",
+		"/Users/Elyse/Data/Dropbox/HackerYou/CSSNormalize",
+		"/Users/Elyse/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Elyse/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Exercises/Week 1/box model.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Exercises/Week 1/CSS margin padding exercise.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/Exercises/Week 1/wednesday.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/one page website/index.html",
+		"/Users/Elyse/Data/Dropbox/HackerYou/one page website/onepagestylesheet.css",
+		"/Users/Elyse/Data/Dropbox/HackerYou/one page website/stylesheet.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"grey",
+			"label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 375.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

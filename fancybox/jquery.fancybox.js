@@ -79,7 +79,7 @@
 			arrows     : true,
 			closeBtn   : true,
 			closeClick : false,
-			nextClick  : false,
+			nextClick  : true,
 			mouseWheel : true,
 			autoPlay   : false,
 			playSpeed  : 3000,
