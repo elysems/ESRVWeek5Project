@@ -120,12 +120,11 @@
 }
 
 .fancybox-prev {
-	left: 20px;
+	left: 0;
 }
 
 .fancybox-next {
-	left: auto;
-  	right: 20px;
+	right: 0;
 }
 
 .fancybox-nav span {
@@ -136,7 +135,7 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: visible;
+	visibility: hidden;
 }
 
 .fancybox-prev span {
