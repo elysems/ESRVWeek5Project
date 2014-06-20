@@ -18,7 +18,7 @@
       
       <div class="full">
           <!-- first image is viewable to start -->
-          <a class="fancybox" href="images/lanark/lanark1large.jpg"><img class="fullImage" src="images/lanark/lanark1large.jpg" /></a>
+         <img class="fullImage" src="images/lanark/lanark1large.jpg"/>
       </div> <!-- end full -->
 
       <div class="previews">
@@ -62,14 +62,19 @@
 
       // WHEN AN A IN THE PREVIEWS CLASS IS CLICKED, FIND FULLIMAGE, CHANGE THE SRC ATTR TO DATA, HIDE FULLIMAGE, THEN FADEIN. THEN, FIND THE FANCYBOX CLASS, CHANGE THE HREF ATTR TO DATA.
 
-      $('.previews a').on('click',function(){
+      $('.previews a').on('click',function(e){
+          e.preventDefault();
           var data = $(this).data("full");
           fullImage.attr("src",data).hide().fadeIn(500);
           $(".fancybox").attr("href", data);
       });
 
-      // APPLY FANCYBOX METHOD TO THE FANCYBOX CLASS
-      $(".fancybox").fancybox();
+      // APPLY FANCYBOX METHOD ON CLICK OF .FULL IMG
+
+      $('.full img').on('click',function (){
+          var imgSrc = $(this).attr('src');
+          $.fancybox.open(imgSrc);
+      });
     
     });
   </script>
